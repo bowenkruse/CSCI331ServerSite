@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>AJAX Example</title>
+    <style>
+        table,
+        table * {
+            border: 1px solid gray
+        }
+
+        td {
+            padding: 0 10px;
+        }
+        #filterResult {
+            color: rgb(32, 76, 121);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+    </style>
+    <script src="football_ajax_json.js" defer></script>
+
+</head>
+
+<body>
+<p>School name: <input type="text" id="txt1" onkeyup="filterSchool(this.value)"></p>
+<ol id="filterResult"></ol>
+
+<table>
+    <tr>
+        <th>Team</th>
+        <th>School</th>
+        <th>Rank</th>
+    </tr>
+    <tbody id="leaderboard">
+    <!-- ajax script fills this -->
+    </tbody>
+</table>
+
+</body>
+
+</html>
