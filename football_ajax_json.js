@@ -29,9 +29,9 @@ function fillTable(jdoc) {
     console.log(jdoc);
     let table = "";
     for (let i = 0; i < jdoc.bigsky.length; i++) {
-        table += "<tr><td>" + jdoc.bigsky[i].name +
+        table += "<tr><td>" + jdoc.bigsky[i].rank +
             "</td><td>" + jdoc.bigsky[i].school +
-            "</td><td>" + jdoc.bigsky[i].rank +
+            "</td><td>" + jdoc.bigsky[i].name +
             "</td></tr>";
     }
     return table;
