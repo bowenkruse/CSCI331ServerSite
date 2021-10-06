@@ -37,8 +37,10 @@ function fillTable(jdoc) {
 }
 
 function displayDate() {
-    document.getElementById("filterResult").innerHTML="";
-    document.getElementById("txt1").innerHTML="";
+    let filter = document.getElementById("filterResult")
+    filter.getElementById("filterResult").innerHTML="";
+    let inputs = document.getElementById("txt1");
+    inputs.getElementById("txt1").innerHTML="";
     alert("hello")
 }
 
