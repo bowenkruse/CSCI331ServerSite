@@ -39,6 +39,7 @@ function fillTable(jdoc) {
 function displayDate() {
     document.getElementById("filterResult").innerHTML="";
     document.getElementById("txt1").innerHTML="";
+    alert("hello")
 }
 
-document.getElementById("leaderboard").addEventListener("click", displayDate);
+demo.addEventListener("click", displayDate);
