@@ -35,3 +35,10 @@ function fillTable(jdoc) {
     }
     return table;
 }
+
+function displayDate() {
+    document.getElementById("filterResult").innerHTML="";
+    document.getElementById("txt1").innerHTML="";
+}
+
+document.getElementById("leaderboard").addEventListener("click", displayDate);
