@@ -31,7 +31,17 @@
     <script src="football_ajax_json.js" defer></script>
 
 </head>
+<script>
+    function displayDate() {
+        let filter = document.getElementById("filterResult");
+        filter.getElementById("filterResult").innerHTML="";
+        let inputs = document.getElementById("txt1");
+        inputs.getElementById("txt1").value="";
+        alert("hello");
+    }
 
+    document.getElementById("table").addEventListener("click", displayDate);
+</script>
 <body>
 <h1><a href="https://en.wikipedia.org/wiki/Big_Sky_Conference">Big Sky Conference Football</a></h1>
 <p>School name: <input type="text" id="txt1" onkeyup="filterSchool(this.value)"></p>
@@ -52,14 +62,3 @@
 </body>
 
 </html>
-<script>
-    function displayDate() {
-        let filter = document.getElementById("filterResult");
-        filter.getElementById("filterResult").innerHTML="";
-        let inputs = document.getElementById("txt1");
-        inputs.getElementById("txt1").innerHTML="";
-        alert("hello");
-    }
-
-    document.getElementById("leaderboard").addEventListener("click", displayDate);
-</script>
