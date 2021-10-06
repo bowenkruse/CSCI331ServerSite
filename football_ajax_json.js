@@ -1,12 +1,4 @@
-function displayDate() {
-    let filter = document.getElementById("filterResult");
-    filter.getElementById("filterResult").innerHTML="";
-    let inputs = document.getElementById("txt1");
-    inputs.getElementById("txt1").value="";
-    alert("hello");
-}
-let xxxx = document.querySelectorAll("td");
-xxxx.addEventListener("click", displayDate);
+
 let demo = document.getElementById("leaderboard"); // reference the HTML
 let xhr = new XMLHttpRequest();
 
@@ -45,3 +37,12 @@ function fillTable(jdoc) {
     return table;
 }
 
+function displayDate() {
+    let filter = document.getElementById("filterResult")
+    filter.getElementById("filterResult").innerHTML="";
+    let inputs = document.getElementById("txt1");
+    inputs.getElementById("txt1").innerHTML="";
+    alert("hello")
+}
+
+demo.addEventListener("click", displayDate);
