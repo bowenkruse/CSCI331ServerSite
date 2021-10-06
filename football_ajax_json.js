@@ -37,12 +37,3 @@ function fillTable(jdoc) {
     return table;
 }
 
-function displayDate() {
-    let filter = document.getElementById("filterResult");
-    filter.getElementById("filterResult").innerHTML="";
-    let inputs = document.getElementById("txt1");
-    inputs.getElementById("txt1").value="";
-    alert("hello");
-}
-let xxxx = document.getElementById("defrance");
-xxxx.addEventListener("click", displayDate);
