@@ -38,11 +38,11 @@ function fillTable(jdoc) {
 }
 
 function displayDate() {
-    let filter = document.getElementById("filterResult")
+    let filter = document.getElementById("filterResult");
     filter.getElementById("filterResult").innerHTML="";
     let inputs = document.getElementById("txt1");
-    inputs.getElementById("txt1").innerHTML="";
-    alert("hello")
+    inputs.getElementById("txt1").value="";
+    alert("hello");
 }
-
-demo.addEventListener("click", displayDate);
+let xxxx = document.getElementById("defrance");
+xxxx.addEventListener("click", displayDate);
