@@ -27,9 +27,9 @@ if ($str !== "") {
     foreach ($bigsky_schools as $school) {
         if (stristr($school, $str)) {
             if ($schoolList === "") {
-                $schoolList = "<li>$school</li>\n";
+                $schoolList = "<p>$school,</p>\n";
             } else {
-                $schoolList .= "<li>$school</li>\n";
+                $schoolList .= "<p>$school</p>\n";
             }
         }
     }
